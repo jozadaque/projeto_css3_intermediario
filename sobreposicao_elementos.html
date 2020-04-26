@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sobreposição de Elementos</title>
+  </head>
+  <style type="text/css">
+    .conteudo1 {
+      background: yellow;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+    }
+    .conteudo2 {
+      background: red;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 80px;
+      left: 80px;
+      z-index: 1;
+    }
+    .conteudo3 {
+      background: blue;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 160px;
+      left: 160px;
+      z-index: 0  ;
+    }
+    .conteudo4 {
+      background: green;
+      border: 1px solid red;
+      width: 800px;
+      height: 360px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1 ;
+    }
+  </style>
+  <body>
+
+    <div class="conteudo1">
+
+    </div>
+    <div class="conteudo2">
+
+    </div>
+    <div class="conteudo3">
+
+    </div>
+    <div class="conteudo4">
+
+    </div>
+
+  </body>
+</html>
